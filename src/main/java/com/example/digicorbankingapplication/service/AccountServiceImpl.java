@@ -46,6 +46,7 @@ public class AccountServiceImpl implements AccountService {
          response.setResponseCode(200);
          response.setMessage("Account is successfully created");
          response.setSuccess(true);
+         response.setAccountNumber(account.getAccountNumber());
         accountRepository.save(account);
 
 
