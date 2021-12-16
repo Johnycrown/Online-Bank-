@@ -11,6 +11,7 @@ import java.util.List;
 @NoArgsConstructor
 public class Account {
     @Id
+
     private String accountNumber;
     private  String accountName;
     private String accountPassword;
