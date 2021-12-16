@@ -7,4 +7,5 @@ public class WithdrawRequest {
     private String accountNumber;
     private String accountPassword;
     private Double withdrawnAmount;
+
 }
