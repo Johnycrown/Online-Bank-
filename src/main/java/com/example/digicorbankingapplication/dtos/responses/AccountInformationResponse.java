@@ -9,6 +9,7 @@ import lombok.Data;
 @Builder
 @Data
 @AllArgsConstructor
+
 public class AccountInformationResponse {
     private int responseCode;
     private boolean success;
