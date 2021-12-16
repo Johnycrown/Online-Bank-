@@ -9,4 +9,5 @@ public class CreateAccountResponse {
     int responseCode;
     boolean success;
     String message;
+    String accountNumber;
 }
