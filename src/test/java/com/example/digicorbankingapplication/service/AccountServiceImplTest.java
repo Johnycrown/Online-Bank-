@@ -30,7 +30,7 @@ class AccountServiceImplTest {
         //Account myaccount  = new Account();
         CreateAccountRequest createAccountRequest = new CreateAccountRequest();
         createAccountRequest.setAccountName("john ajibade");
-        createAccountRequest.setAccountNumber(createAccountRequest.getAccountNumber());
+        //createAccountRequest.setAccountNumber(createAccountRequest.getAccountNumber());
         //System.out.println(createAccountRequest.getAccountNumber());
         createAccountRequest.setInitialDeposit(300000.00);
         createAccountRequest.setAccountPassword("456ugc");
