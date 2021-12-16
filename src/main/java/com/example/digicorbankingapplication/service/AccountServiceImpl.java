@@ -79,6 +79,7 @@ public class AccountServiceImpl implements AccountService {
         return response;
     }
 
+
     @Override
     public TransactionResponse withdraw(WithdrawRequest request) throws AccountDoesNotExistException, ExcessWithdrawnAmountException {
         if(request.getWithdrawnAmount() < 1.0){
@@ -110,6 +111,7 @@ public class AccountServiceImpl implements AccountService {
         return new TransactionResponse(true, "1000 successfully withdrawn" +
                 " new balance is: #" + account.getAccountBalance());
     }
+
 
     @Override
     public TransactionResponse deposit(DepositRequest request) {
