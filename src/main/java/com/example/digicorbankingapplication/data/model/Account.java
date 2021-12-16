@@ -18,6 +18,7 @@ public class Account {
     private List<AccountTransaction> transactions;
 
     public Account(String accountName, String accountNumber, Double initialDeposit) {
+
         this.accountName = accountName;
         this.accountNumber = accountNumber;
         this.accountBalance = initialDeposit;
