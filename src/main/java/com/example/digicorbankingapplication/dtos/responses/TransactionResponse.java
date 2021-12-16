@@ -8,4 +8,5 @@ import lombok.Data;
 public class TransactionResponse {
     private boolean success;
     private String message;
+
 }
