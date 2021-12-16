@@ -1,6 +1,5 @@
 package com.example.digicorbankingapplication.controllers;
 
-
 import com.example.digicorbankingapplication.dtos.requests.CreateAccountRequest;
 import com.example.digicorbankingapplication.dtos.requests.DepositRequest;
 import com.example.digicorbankingapplication.dtos.requests.WithdrawRequest;
